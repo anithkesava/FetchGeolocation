@@ -10,6 +10,12 @@ body{
     padding: 0;
     margin: 0;
 }
+@media (max-width: 768px){
+    body{
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 .header{
     text-transform: capitalize;
