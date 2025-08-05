@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to bottom,darkblue 20%, gray 80%);
+    background: url(./images/geography.jpg) no-repeat center / cover ;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -40,7 +40,8 @@ body{
     }
 }
 strong{
-    color: limegreen;
+    color: lime;
+    text-shadow: 3px 4px 10px rgba(0,0,0);
 }
 
 .main{
@@ -60,6 +61,7 @@ strong{
         width:30rem;
         justify-content: center;
         align-items: center;
+        border-radius: 10px;
     }
 }
 label{
@@ -107,7 +109,7 @@ button{
     font-family: monospace;
     text-transform: capitalize;
     letter-spacing: 1px;
-    background: url(./images/globe.jpg) center /cover no-repeat;
+    background: url(./images/globe.jpg) top center /cover no-repeat;
     border-radius: 12px;
     cursor: pointer; 
     transition: transform 0.2s ease-in;
