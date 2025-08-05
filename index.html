@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>provide your <strong>geolocation</strong></h1>
+    </div>
+    <div class="main">
+      <div class="in-row">
+        <label>Enter the Latitude</label>
+        <input id="latitude" readonly disabled type="text" placeholder="Enter Latitude" />
+      </div>
+      <div class="in-row">
+        <label>Enter the Latitude</label>
+        <input id="longitude" readonly disabled type="text" placeholder="Enter Latitude" />
+      </div>
+      <div>
+         <button title="Get the Geolocation " onclick="getgeolocation()">get geolocation</button>
+      </div>
+    </div>
+  </body>
+</html>
